@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    ibm-plex-sans-condensed-thin {
+        font-family: "IBM Plex Sans Condensed", serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+}
+/* navbar////// */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+    align-items: center;
+    background-color: #5519135d;
+}
+.links a{
+    text-decoration: none;
+    color: green;
+    margin: 0 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.fruit h4{
+    color: green;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+
+}
+
+/* main ///// */
+
+main{
+background-image: url("./image/OIP.jpeg");
+background-position: center;
+background-size: cover;
+height:450px;
+padding: 100px;
+
+}
+.left{
+    margin-top: 100px ;
+
+ 
+}
+.left button{
+    border-radius: 50px;
+    padding: 15px;
+    background-color: #f8c471;
+}
+.description {
+    color: #f8c471;
+   font-size: 50px;
+    font-weight: bold;
+    
+}
+/* responseve/////
+ */
+ @media( max-width:541px){
+    .links a{
+        display: block;
+        font-size:20px;
+    }
+
+ }
+ @media( max-width:526px){
+    .left h1{
+        font-size: 20px;
+        font-weight: 500px;
+    }
+    .description{
+        font-size: 20px;
+        font-weight: 500px;
+    }
+    .left h4{
+        font-size: 12px;
+        margin-right: 150px;
+    }
+ }
